@@ -1,6 +1,6 @@
 import { sortHeroes } from "../sortHeroes";
 
-test("Сортировка по здоровью", () => {
+test("sort heroes by health", () => {
   const heroes = [
     { name: "мечник", health: 10 },
     { name: "маг", health: 100 },
